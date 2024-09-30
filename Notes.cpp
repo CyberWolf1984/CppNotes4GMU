@@ -257,333 +257,335 @@ Terminology
           - A program that can convert a program from one language to another
           - A program that can convert a program from one language to itself
   
-  Statements
-    - A type of instruction to preform a task/action
-    - Must have
-        - A statement terminator
-            - A character that ends a statement
-            - e.g. ;
-        - A statement body
-            - The code that preforms the task
-            - e.g. x = 5;
-    
-    Declaration statements
-        - Define a variable, function, class, or namespace
-
-            Variable declarations
-                - A statement that defines a variable
-                - e.g. int x;
-
-            Function declarations
-                - A statement that defines a function
-                - e.g. void printHello();
-
-            Class declarations
-                - A statement that defines a class
-                - e.g. class MyClass;
-
-            Namespace declarations
-                - A statement that defines a namespace
-                - e.g. namespace MyNamespace;
-
-    Jump statements
-        - A statement that changes the flow of the program/order of execution
-
-            Return statements
-                - A statement that ends a function
-                - e.g. return 5;
-
-            Break statements
-                - A statement that ends a loop
-                - e.g. break;
-
-            Continue statements
-                - A statement that skips the rest of the loop
-                - e.g. continue;
-
-            Goto statements (avoid using)
-                - A statement that jumps to a label
-                - These lead to "spaghetti code" (poor readability/continuity)
-                - e.g. goto label;
-
-    Expression statements
-        - A statement that preforms an operation/calculation
-        - e.g. x = 5;
-        - e.g. x = x + 5;
-
-          Assignment statements
-              - A statement that assigns a value to a variable
+    Statements
+      - A type of instruction to preform a task/action
+      - Must have
+          - A statement terminator
+              - A character that ends a statement
+              - e.g. ;
+          - A statement body
+              - The code that preforms the task
               - e.g. x = 5;
+      
+      Declaration statements
+          - Define a variable, function, class, or namespace
 
-          Arithmetic statements
-              - A statement that preforms a mathematical operation
-              - e.g. x = x + 5;
+              Variable declarations
+                  - A statement that defines a variable
+                  - e.g. int x;
 
-          Function call statements
-              - A statement that calls a function
-              - e.g. printHello();
+              Function declarations
+                  - A statement that defines a function
+                  - e.g. void printHello();
 
-          Increment/Decrement statements
-              - A statement that increases/decreases a variable by 1
-              - e.g. x++;
+              Class declarations
+                  - A statement that defines a class
+                  - e.g. class MyClass;
 
-    Compound statements
-        - A statement that groups multiple statements
-        - e.g. { int x; x = 5; }
-            
-        Block statements
-            - A statement that groups multiple statements
-            - e.g. { int x; x = 5; }
+              Namespace declarations
+                  - A statement that defines a namespace
+                  - e.g. namespace MyNamespace;
 
-        Function body statements
-            - A statement that groups multiple statements in a function
-            - e.g. void printHello() { std::cout << "Hello, World!" << std::endl; }
+      Jump statements
+          - A statement that changes the flow of the program/order of execution
 
-    Selection statements (conditionals)
-        - A statement that chooses between two or more paths
-        - e.g. if (x == 5) { x = 10; }
-        
-        If statements
-            - A statement that chooses between two paths
-            - e.g. if (x == 5) { x = 10; }
-        
-        Else statements
-            - A statement that runs if the if statement is false
-            - e.g. if (x == 5) { x = 10; } else { x = 0; }
-        
-        If-Else statements
-            - A statement that chooses between two paths
-            - e.g. if (x == 5) { x = 10; } else { x = 0; }
+              Return statements
+                  - A statement that ends a function
+                  - e.g. return 5;
 
-        Else-If statements
-            - A statement that runs if the if statement is false and a condition is true
-            - e.g. if (x == 5) { x = 10; } else if (x == 10) { x = 5; }
-        
-        Switch statements
-            - A statement that chooses between multiple paths
-            - e.g. switch (x) { case 5: x = 10; break; case 10: x = 5; break; default: x = 0; break; }
+              Break statements
+                  - A statement that ends a loop
+                  - e.g. break;
 
-    Iteration statements (loops)
-        - A statement that repeats a block of code
-        - e.g. for (int i = 0; i < 10; i++) { x = x + 1; }
-        
-        For Loop
-            - A statement that repeats a block of code a specific number of times
-            - e.g. for (int i = 0; i < 10; i++) { x = x + 1; }
-        
-        While Loop
-            - A statement that repeats a block of code while a condition is true
-            - e.g. while (x < 10) { x = x + 1; }
-        
-        Do-While Loop
-            - A statement that repeats a block of code while a condition is true
-            - e.g. do { x = x + 1; } while (x < 10);
+              Continue statements
+                  - A statement that skips the rest of the loop
+                  - e.g. continue;
+
+              Goto statements (avoid using)
+                  - A statement that jumps to a label
+                  - These lead to "spaghetti code" (poor readability/continuity)
+                  - e.g. goto label;
+
+      Expression statements
+          - A statement that preforms an operation/calculation
+          - e.g. x = 5;
+          - e.g. x = x + 5;
+
+            Assignment statements
+                - A statement that assigns a value to a variable
+                - e.g. x = 5;
+
+            Arithmetic statements
+                - A statement that preforms a mathematical operation
+                - e.g. x = x + 5;
+
+            Function call statements
+                - A statement that calls a function
+                - e.g. printHello();
+
+            Increment/Decrement statements
+                - A statement that increases/decreases a variable by 1
+                - e.g. x++;
+
+      Compound statements
+          - A statement that groups multiple statements
+          - e.g. { int x; x = 5; }
+              
+          Block statements
+              - A statement that groups multiple statements
+              - e.g. { int x; x = 5; }
+
+          Function body statements
+              - A statement that groups multiple statements in a function
+              - e.g. void printHello() { std::cout << "Hello, World!" << std::endl; }
+
+      Selection statements (conditionals)
+          - A statement that chooses between two or more paths
+          - e.g. if (x == 5) { x = 10; }
+          
+          If statements
+              - A statement that chooses between two paths
+              - e.g. if (x == 5) { x = 10; }
+          
+          Else statements
+              - A statement that runs if the if statement is false
+              - e.g. if (x == 5) { x = 10; } else { x = 0; }
+          
+          If-Else statements
+              - A statement that chooses between two paths
+              - e.g. if (x == 5) { x = 10; } else { x = 0; }
+
+          Else-If statements
+              - A statement that runs if the if statement is false and a condition is true
+              - e.g. if (x == 5) { x = 10; } else if (x == 10) { x = 5; }
+          
+          Switch statements
+              - A statement that chooses between multiple paths
+              - e.g. switch (x) { case 5: x = 10; break; case 10: x = 5; break; default: x = 0; break; }
+
+      Iteration statements (loops)
+          - A statement that repeats a block of code
+          - e.g. for (int i = 0; i < 10; i++) { x = x + 1; }
+          
+          For Loop
+              - A statement that repeats a block of code a specific number of times
+              - e.g. for (int i = 0; i < 10; i++) { x = x + 1; }
+          
+          While Loop
+              - A statement that repeats a block of code while a condition is true
+              - e.g. while (x < 10) { x = x + 1; }
+          
+          Do-While Loop
+              - A statement that repeats a block of code while a condition is true
+              - e.g. do { x = x + 1; } while (x < 10);
 
 
-    Try blocks (exception handling)
-        - A statement that handles errors
-        - e.g. try { x = 5 / 0; } catch (int e) { x = 0; }
+      Try blocks (exception handling)
+          - A statement that handles errors
+          - e.g. try { x = 5 / 0; } catch (int e) { x = 0; }
 
-            Try-Catch blocks
-                - A statement that handles errors
-                - e.g. try { x = 5 / 0; } catch (int e) { x = 0; }
-            
-            Try-Catch-Throw blocks
-                - A statement that handles errors and throws an error
-                - e.g. try { x = 5 / 0; } catch (int e) { x = 0; throw e; }
-            
-            Try-Catch-Throw-Catch blocks
-                - A statement that handles errors, throws an error, and catches the error
-                - e.g. try { x = 5 / 0; } catch (int e) { x = 0; throw e; } catch (int e) { x = 0; }
+              Try-Catch blocks
+                  - A statement that handles errors
+                  - e.g. try { x = 5 / 0; } catch (int e) { x = 0; }
+              
+              Try-Catch-Throw blocks
+                  - A statement that handles errors and throws an error
+                  - e.g. try { x = 5 / 0; } catch (int e) { x = 0; throw e; }
+              
+              Try-Catch-Throw-Catch blocks
+                  - A statement that handles errors, throws an error, and catches the error
+                  - e.g. try { x = 5 / 0; } catch (int e) { x = 0; throw e; } catch (int e) { x = 0; }
 
-    Null Statements
-        - A statement that does nothing
-        - e.g. ;
-            Empty statements (Useless)
-                - A statement that does nothing
-                - e.g. ;
-            
-            Comment statements (Useful)
-                - A statement that does nothing but holds information
-                - e.g. All the notes are in a multi-line comment
+      Null Statements
+          - A statement that does nothing
+          - e.g. ;
+              Empty statements (Useless)
+                  - A statement that does nothing
+                  - e.g. ;
+              
+              Comment statements (Useful)
+                  - A statement that does nothing but holds information
+                  - e.g. All the notes are in a multi-line comment
+      
+    Functions
+      - A statement
+      - Can be called multiple times
+      - Can be called from other functions
+      - Can be called from other files
+
+    Main
+      - The starting point of a program
+      - The first function called
+      - Must be defined
+      - Must return an integer
+      - Must have a return statement
+      - Must have a closing bracket
     
-  Functions
-    - A statement
-    - Can be called multiple times
-    - Can be called from other functions
-    - Can be called from other files
+    Embedded Systems
+        - Which are systems that are built into other systems
+        - e.g. a smartwatch
 
-  Main
-    - The starting point of a program
-    - The first function called
-    - Must be defined
-    - Must return an integer
-    - Must have a return statement
-    - Must have a closing bracket
-  
-  Embedded Systems
-      - Which are systems that are built into other systems
-      - e.g. a smartwatch
-
-  Object Linking
-    - The process of combining object files into an executable
-    - Done by a linker
-  
-  
-  Object Linker
-    - A program that combines object files into an executable (or other file type)
-  
-  Packaging
-    - The process of combining multiple files into a single file
-    - Done by a packager
-  
-  
-  Library Files
-    - Files that contain code that can be used in other programs
-    - e.g. a file that contains a function that prints "Hello, World!"
-
-    Iostream
-      - A common library file that contains code for input/output
-      - e.g. std::cout, std::cin
-
-    C++ Standard Library
-      - A library that contains code that is commonly used in C++
-      - e.g. iostream, string, vector, algorithm
+    Object Linking
+      - The process of combining object files into an executable
+      - Done by a linker
     
     
-    String Library
-      - A library that contains code for strings
-      - e.g. std::string
+    Object Linker
+      - A program that combines object files into an executable (or other file type)
     
-    Vector Library
-      - A library that contains code for vectors
-      - e.g. std::vector
+    Packaging
+      - The process of combining multiple files into a single file
+      - Done by a packager
     
-    Algorithm Library
-      - A library that contains code for algorithms
-      - e.g. std::sort
     
-    C Math
-      - A library that contains code for math
-      - e.g. std::abs, std::pow, std::sqrt
+    Library Files
+      - Files that contain code that can be used in other programs
+      - e.g. a file that contains a function that prints "Hello, World!"
+
+      Iostream
+        - A common library file that contains code for input/output
+        - e.g. std::cout, std::cin
+
+      C++ Standard Library
+        - A library that contains code that is commonly used in C++
+        - e.g. iostream, string, vector, algorithm
+      
+      
+      String Library
+        - A library that contains code for strings
+        - e.g. std::string
+      
+      Vector Library
+        - A library that contains code for vectors
+        - e.g. std::vector
+      
+      Algorithm Library
+        - A library that contains code for algorithms
+        - e.g. std::sort
+      
+      C Math
+        - A library that contains code for math
+        - e.g. std::abs, std::pow, std::sqrt
+      
+
+
+    Nomenclature
+      - Naming conventions for code or files
+      - Allows us to understand the purpose of the code
+
+      Camel Case (Preferred by Micheal in Game Makers Union)
+          - First letter is lowercase
+          - First letter of each word is uppercase
+          - e.g. camelCase
+      
+      Snake Case
+          - All lowercase
+          - Words are separated by underscores
+          - e.g. snake_case
+      
+      Pascal Case
+          - First letter is uppercase
+          - First letter of each word is uppercase
+          - e.g. PascalCase
+      
+      Kebab Case
+          - All lowercase
+          - Words are separated by hyphens
+          - e.g. kebab-case
+
+Part 1: Introduction to C++
+
+  C++ History
+
+    Standardized by the ISO (International Organization for Standardization) committee in 1998
+      - Standards document
+        - Provides a set of rules for writing C++ code
+          - Ensures that code is portable across compilers and platforms
+
+    Based on C
+      - C is a low-level programming language
+      - C++ is a high-level programming language based on C
+      - C# is a high-level programming language based on C++
+
+    Five Major Updates
+
+      C++11
+        - Released in 2011
+        - Considered the baseline for modern C++
+        - Formal name is ISO/IEC 14882:2011
+
+      C++14
+        - Released in 2014
+        - Formal name is ISO/IEC 14882:2014
+
+      C++17
+        - Released in 2017
+        - Formal name is ISO/IEC 14882:2017
+
+      C++20
+        - Released in 2020
+        - Formal name is ISO/IEC 14882:2020
+
+      C++23
+        - Released in 2023
+        - Formal name is ISO/IEC 14882:2023
+      
+      - Future updates are expected to be released every 3 years
+
+    Philosophy
+      - Designed to "Trust the Programmer"
+        - This allows the programmer to have alot of control over the program
+        - This can lead to more bugs
+
+    Uses
+      - Video Games
+      - Real-Time Systems
+      - AI and Neural Networks
+      - Embedded Systems
+
+    Popularity
+      - Consistently the 2nd or 3rd most popular compiling language
+        - Many resources available to learn it
+        - Many companies use it
     
+  Writing in C++
 
+    Process of writing a program
 
-  Nomenclature
-    - Naming conventions for code or files
-    - Allows us to understand the purpose of the code
+      Define
+        - "I need a program that can navigate a maze"
+        - "I need a program that can display a clock"
 
-    Camel Case (Preferred by Micheal in Game Makers Union)
-        - First letter is lowercase
-        - First letter of each word is uppercase
-        - e.g. camelCase
-    
-    Snake Case
-        - All lowercase
-        - Words are separated by underscores
-        - e.g. snake_case
-    
-    Pascal Case
-        - First letter is uppercase
-        - First letter of each word is uppercase
-        - e.g. PascalCase
-    
-    Kebab Case
-        - All lowercase
-        - Words are separated by hyphens
-        - e.g. kebab-case
+        Design
+          - Good solutions
+            - Occams razor (simple is more likely to work)
+            - Well documented
+            - Give errors when issues occur
+            - Easy to change or reuse
+              - e.g. a function that can be used in multiple places
+              - If you write in the least amount of code, it will be hard to read and edit later on if it produces bugs
 
-C++ History
+          Write
+            - Write the code in a code editor
+            - e.g
+              #include <iostream>
+              int main()
+              {
+                std::cout << "Hello, World!" << std::endl;
+                return 0;
+              }
+            - C++ programs can have thousands of files
+              - The primary one should be called main.cpp
+              - All other files should end in .cpp
+              - The .cpp extension indicates that the file contains C++ code
 
-  Standardized by the ISO (International Organization for Standardization) committee in 1998
-    - Standards document
-      - Provides a set of rules for writing C++ code
-        - Ensures that code is portable across compilers and platforms
+            Compile
+              Link Objects
 
-  Based on C
-    - C is a low-level programming language
-    - C++ is a high-level programming language based on C
-    - C# is a high-level programming language based on C++
+                Test
 
-  Five Major Updates
-
-    C++11
-      - Released in 2011
-      - Considered the baseline for modern C++
-      - Formal name is ISO/IEC 14882:2011
-
-    C++14
-      - Released in 2014
-      - Formal name is ISO/IEC 14882:2014
-
-    C++17
-      - Released in 2017
-      - Formal name is ISO/IEC 14882:2017
-
-    C++20
-      - Released in 2020
-      - Formal name is ISO/IEC 14882:2020
-
-    C++23
-      - Released in 2023
-      - Formal name is ISO/IEC 14882:2023
-    
-    - Future updates are expected to be released every 3 years
-
-  Philosophy
-    - Designed to "Trust the Programmer"
-      - This allows the programmer to have alot of control over the program
-      - This can lead to more bugs
-
-  Uses
-    - Video Games
-    - Real-Time Systems
-    - AI and Neural Networks
-    - Embedded Systems
-
-  Popularity
-    - Consistently the 2nd or 3rd most popular compiling language
-      - Many resources available to learn it
-      - Many companies use it
-  
-Writing in C++
-
-  Process of writing a program
-
-    Define
-      - "I need a program that can navigate a maze"
-      - "I need a program that can display a clock"
-
-      Design
-        - Good solutions
-          - Occams razor (simple is more likely to work)
-          - Well documented
-          - Give errors when issues occur
-          - Easy to change or reuse
-            - e.g. a function that can be used in multiple places
-            - If you write in the least amount of code, it will be hard to read and edit later on if it produces bugs
-
-        Write
-          - Write the code in a code editor
-          - e.g
-            #include <iostream>
-            int main()
-            {
-              std::cout << "Hello, World!" << std::endl;
-              return 0;
-            }
-          - C++ programs can have thousands of files
-            - The primary one should be called main.cpp
-            - All other files should end in .cpp
-            - The .cpp extension indicates that the file contains C++ code
-
-          Compile
-            Link Objects
-
-              Test
-
-                Debug/Rewrite
-                  - Removing bugs
+                  Debug/Rewrite
+                    - Removing bugs
 
 
 */

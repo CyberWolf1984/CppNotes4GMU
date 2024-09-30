@@ -8,8 +8,127 @@ A collection of study notes for C++ for Pogrammers in Game Maker's Union at Toro
     - C++ Primer 5th Edition (https://www.amazon.com/Primer-5th-Stanley-B-Lippman/dp/0321714113) or (https://cpp-primer.pages.dev/src/001-contents) ** THIS WILL NOT BE THE CASE UNTIL I GET THROUGH LEARN C++ **
     - Stack Overflow (https://stackoverflow.com/) ** Learn C++ redirects here for some niche topics **
   - A few miniscule amount of notes are from my own knowledge, or rather "Common knowledge" in the modern era
+
+The file will be coverted into Markdown after complete
+
 ## Table of Contents
-### Intro to C++ (Work In Progress)
-- General Terminology
+### Disclaimer
+### Terminology
+    - Computer Program/Application in C++
+    - File Extension
+    - Programming 
+    - Compiling
+          - Object File
+    - Execution
+    - Debugging
+    - Ascii Characters
+        - Fira Code
+    - Code Editor
+        - Line Numbering
+        - Syntax highlighting
+        - Fixed-width (monospace) font
+        - Code folding
+        - Autocompletion
+        - Warnings/Error highlighting
+        - Plugins
+    - Bug
+    - Source code
+    - Programming Languages
+    - Syntax
+    - Pragmatics
+    - Purpose
+    - Platform
+      - Software environment
+      - CPU family/Instruction set architecture
+      - Hardware environment
+      - "PC"
+    - Machine Language
+      - The language that the computer understands
+      - Instruction set
+          - Instructions
+              - Binary or Binary Code
+                  - Bit
+    - Assembly Language
+      - Assembler
+    - High-Level Language
+      - Portable
+      - Compiled Language
+        - Process
+      - Interpreted Language
+        - Process
+      - Hybrid Language
+        - Bytecode
+        - Java Virtual Machine
+        - Process
+      - Comparism (Generally Speaking)
+        - Compiled
+            - Dynamic dispatch
+              - Polymorphism
+            - Inheritance
+        - Interpreted
+          - Dynamic Optimizations
+              - Just-In-Time (JIT) compilation
+        - Hybrid
+      - Cross-Platform Program
+      - "Languages are not compiled or interpreted"
+        - Futamura projections
+    - Statements
+          - Statement terminator
+          - Statement body   
+      - Declaration statements
+        - Variable declarations
+        - Function declarations
+        - Class declarations
+        - Namespace declaration
+      - Jump statements
+        - Return statements
+        - Break statements
+        - Continue statements
+        - Goto statements (avoid using)
+      - Expression statements
+        - Assignment statements
+        - Arithmetic statements
+        - Function call statements
+        - Increment/Decrement statements
+      - Compound statements  
+        - Block statements
+        - Function body statements
+      - Selection statements (conditionals)
+        - If statements
+        - Else statements
+        - If-Else statements
+        - Else-If statements
+        - Switch statements
+      - Iteration statements (loops)
+        - For Loop
+        - While Loop
+        - Do-While Loop   
+      - Try blocks (exception handling)
+        - Try-Catch blocks
+        - Try-Catch-Throw blocks
+        - Try-Catch-Throw-Catch blocks
+      - Null Statements
+        - Empty statements (Useless)
+        - Comment statements (Useful)
+    - Functions
+    - Main
+    - Embedded Systems
+    - Object Linking
+    - Object Linker
+    - Packaging   
+    - Library Files
+      - Iostream
+      - C++ Standard Library
+      - String Library
+      - Vector Library
+      - Algorithm Library      
+      - C Math
+  - Nomenclature
+    - Camel Case (Preferred by Micheal in Game Makers Union)
+    - Snake Case
+    - Pascal Case
+    - Kebab Case
+
+### Units 0-1 : Intro to C++ (Work In Progress)
 - History of C++
-- How To Write a Program in C++
+- How To Write a Program in C++ (Work In Progress)
